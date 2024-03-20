@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap')
+    </style>
+</head>
+
+<body>
+    <header class="cabecalho"> 
+        <img class="logo"  src="./assets/logo alura.png" alt="logo">
+    </header>
+    <main class="apresentacao"> 
+        <section class="apresentacao__conteudoesquerda"> 
+            <div >
+                <textarea class="apresentacao__conteudo__caixadetexto" id="input-texto" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+            </div>
+            <div class="apresentacao__conteudo__alertaebtns"> 
+            <div class="apresentacao__conteudo__alerta"> 
+                <img src="./assets/alerta.png" alt="alerta">
+                <p> Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="apresentacao__conteudo__btn">
+                <input class="apresentacao__conteudo__btn1" type="button" value="Criptografar" onclick="btnEncriptar()">
+                <input class="apresentacao__conteudo__btn2" type="button" value="Descriptografar" onclick="btnDesencriptar()">
+            </div>
+            </div>
+        </section>
+        <section class="apresentacao__conteudodireita"> 
+            <div class="apresentacao__conteudoedireita__fundo">
+                <textarea class="apresentacao__conteudoedireita__fundo__mensagem" cols="20" rows="10"></textarea>
+                <img class="apresentacao__conteudoedireita__fundo__imagem" src="./assets/boneco.png" alt="boneco procurando mensagem">
+                <div class="apresentacao__conteudoedireita__fundo__texto"> 
+                    <h1 class="apresentacao__conteudoedireita__fundo__texto1"> Nenhuma mensagem encontrada</h1>
+                    <p class="apresentacao__conteudoedireita__fundo__texto2"> Digite um texto que você deseja criptografar ou descriptografar. </p>
+                </div>
+                <div class="apresentacao__conteudoedireita__fundo__copiar">
+                    <input class="apresentacao__conteudoedireita__fundo__btncopiar" type="button" value="Copiar" onclick="copiarTexto()">
+                </div>
+            </div>
+        </section>
+    </main>  
+    <footer class="rodape"> Desenvolvido por Eduarda Bronzoni. </footer>
+    <script src="app.js"></script>
+</body>
+</html>
