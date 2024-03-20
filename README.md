@@ -3,7 +3,7 @@
 # Bem-vindo ao meu #challengeonedecodificador6!
 Meu primeiro desafio (Alura Challenges Oracle ONE) desenvolvido com os cursos de HTML e CSS da Alura
 
-![image](https://github.com/M-eduardabronzoni/Decodificador-de-Texto/assets/160615709/9ee86651-f238-45c5-809a-ab0fee161b6e)
+![image](https://github.com/M-eduardabronzoni/Decodificador-de-Texto-/assets/160615709/3cc5c17e-0a89-41de-9950-3bf02f9a6d55)
 
 ## Ferramentas utilizadas:
 
